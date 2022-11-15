@@ -259,6 +259,9 @@ export default async function handler(req, res) {
     return res.status(500).send(err);
   }
 
+  res.setHeader('Access-Control-Allow-Credentials', true);
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Methods', 'GET');
   res.setHeader('Cache-Control', 'max-age=0, s-maxage=86400');
   res.status(200).json(products.body.data.productVariant);
 }
