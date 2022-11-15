@@ -259,5 +259,6 @@ export default async function handler(req, res) {
     return res.status(500).send(err);
   }
 
-  return await res.status(200).json(products.body.data.productVariant);
+  res.setHeader('Cache-Control', 'max-age=0, s-maxage=86400');
+  res.status(200).json(products.body.data.productVariant);
 }
