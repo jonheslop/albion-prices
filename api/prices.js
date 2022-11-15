@@ -256,8 +256,8 @@ export default async function handler(req, res) {
     });
   } catch (err) {
     // console.error(err)
-    return res.send(err);
+    return res.status(500).send(err);
   }
 
-  return await res.json(products.body.data.productVariant);
+  return await res.status(200).json(products.body.data.productVariant);
 }
