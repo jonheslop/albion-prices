@@ -568,6 +568,10 @@ export default async function handler(req, res) {
     });
   } catch (err) {
     // console.error(err)
+    res.setHeader('Access-Control-Allow-Credentials', true);
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Access-Control-Allow-Methods', 'GET');
+    res.setHeader('Cache-Control', 'max-age=0, s-maxage=86400');
     return res.status(500).send(err);
   }
 
