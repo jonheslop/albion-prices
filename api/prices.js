@@ -29,77 +29,7 @@ export default async function handler(req, res) {
                 currencyCode
               }
             }
-            US: contextualPricing(context: {country: US}) {
-              price {
-                amount
-                currencyCode
-              }
-              compareAtPrice {
-                amount
-                currencyCode
-              }
-            }
             AU: contextualPricing(context: {country: AU}) {
-              price {
-                amount
-                currencyCode
-              }
-              compareAtPrice {
-                amount
-                currencyCode
-              }
-            }
-            CA: contextualPricing(context: {country: CA}) {
-              price {
-                amount
-                currencyCode
-              }
-              compareAtPrice {
-                amount
-                currencyCode
-              }
-            }
-            CL: contextualPricing(context: {country: CL}) {
-              price {
-                amount
-                currencyCode
-              }
-              compareAtPrice {
-                amount
-                currencyCode
-              }
-            }
-            CO: contextualPricing(context: {country: CO}) {
-              price {
-                amount
-                currencyCode
-              }
-              compareAtPrice {
-                amount
-                currencyCode
-              }
-            }
-            JP: contextualPricing(context: {country: JP}) {
-              price {
-                amount
-                currencyCode
-              }
-              compareAtPrice {
-                amount
-                currencyCode
-              }
-            }
-            KR: contextualPricing(context: {country: KR}) {
-              price {
-                amount
-                currencyCode
-              }
-              compareAtPrice {
-                amount
-                currencyCode
-              }
-            }
-            AD: contextualPricing(context: {country: AD}) {
               price {
                 amount
                 currencyCode
@@ -129,6 +59,66 @@ export default async function handler(req, res) {
                 currencyCode
               }
             }
+            BG: contextualPricing(context: {country: BG}) {
+              price {
+                amount
+                currencyCode
+              }
+              compareAtPrice {
+                amount
+                currencyCode
+              }
+            }
+            CA: contextualPricing(context: {country: CA}) {
+              price {
+                amount
+                currencyCode
+              }
+              compareAtPrice {
+                amount
+                currencyCode
+              }
+            }
+            CL: contextualPricing(context: {country: CL}) {
+              price {
+                amount
+                currencyCode
+              }
+              compareAtPrice {
+                amount
+                currencyCode
+              }
+            }
+            CN: contextualPricing(context: {country: CN}) {
+              price {
+                amount
+                currencyCode
+              }
+              compareAtPrice {
+                amount
+                currencyCode
+              }
+            }
+            CO: contextualPricing(context: {country: CO}) {
+              price {
+                amount
+                currencyCode
+              }
+              compareAtPrice {
+                amount
+                currencyCode
+              }
+            }
+            HR: contextualPricing(context: {country: HR}) {
+              price {
+                amount
+                currencyCode
+              }
+              compareAtPrice {
+                amount
+                currencyCode
+              }
+            }
             CY: contextualPricing(context: {country: CY}) {
               price {
                 amount
@@ -139,7 +129,17 @@ export default async function handler(req, res) {
                 currencyCode
               }
             }
-            DE: contextualPricing(context: {country: DE}) {
+            CZ: contextualPricing(context: {country: CZ}) {
+              price {
+                amount
+                currencyCode
+              }
+              compareAtPrice {
+                amount
+                currencyCode
+              }
+            }
+            DK: contextualPricing(context: {country: DK}) {
               price {
                 amount
                 currencyCode
@@ -150,16 +150,6 @@ export default async function handler(req, res) {
               }
             }
             EE: contextualPricing(context: {country: EE}) {
-              price {
-                amount
-                currencyCode
-              }
-              compareAtPrice {
-                amount
-                currencyCode
-              }
-            }
-            ES: contextualPricing(context: {country: ES}) {
               price {
                 amount
                 currencyCode
@@ -189,7 +179,47 @@ export default async function handler(req, res) {
                 currencyCode
               }
             }
+            DE: contextualPricing(context: {country: DE}) {
+              price {
+                amount
+                currencyCode
+              }
+              compareAtPrice {
+                amount
+                currencyCode
+              }
+            }
             GR: contextualPricing(context: {country: GR}) {
+              price {
+                amount
+                currencyCode
+              }
+              compareAtPrice {
+                amount
+                currencyCode
+              }
+            }
+            HK: contextualPricing(context: {country: HK}) {
+              price {
+                amount
+                currencyCode
+              }
+              compareAtPrice {
+                amount
+                currencyCode
+              }
+            }
+            HU: contextualPricing(context: {country: HU}) {
+              price {
+                amount
+                currencyCode
+              }
+              compareAtPrice {
+                amount
+                currencyCode
+              }
+            }
+            IN: contextualPricing(context: {country: IN}) {
               price {
                 amount
                 currencyCode
@@ -219,6 +249,56 @@ export default async function handler(req, res) {
                 currencyCode
               }
             }
+            IL: contextualPricing(context: {country: IL}) {
+              price {
+                amount
+                currencyCode
+              }
+              compareAtPrice {
+                amount
+                currencyCode
+              }
+            }
+            JP: contextualPricing(context: {country: JP}) {
+              price {
+                amount
+                currencyCode
+              }
+              compareAtPrice {
+                amount
+                currencyCode
+              }
+            }
+            KR: contextualPricing(context: {country: KR}) {
+              price {
+                amount
+                currencyCode
+              }
+              compareAtPrice {
+                amount
+                currencyCode
+              }
+            }
+            KW: contextualPricing(context: {country: KW}) {
+              price {
+                amount
+                currencyCode
+              }
+              compareAtPrice {
+                amount
+                currencyCode
+              }
+            }
+            LV: contextualPricing(context: {country: LV}) {
+              price {
+                amount
+                currencyCode
+              }
+              compareAtPrice {
+                amount
+                currencyCode
+              }
+            }
             LT: contextualPricing(context: {country: LT}) {
               price {
                 amount
@@ -239,7 +319,7 @@ export default async function handler(req, res) {
                 currencyCode
               }
             }
-            LV: contextualPricing(context: {country: LV}) {
+            MO: contextualPricing(context: {country: MO}) {
               price {
                 amount
                 currencyCode
@@ -249,7 +329,7 @@ export default async function handler(req, res) {
                 currencyCode
               }
             }
-            MC: contextualPricing(context: {country: MC}) {
+            MY: contextualPricing(context: {country: MY}) {
               price {
                 amount
                 currencyCode
@@ -269,6 +349,26 @@ export default async function handler(req, res) {
                 currencyCode
               }
             }
+            MX: contextualPricing(context: {country: MX}) {
+              price {
+                amount
+                currencyCode
+              }
+              compareAtPrice {
+                amount
+                currencyCode
+              }
+            }
+            MC: contextualPricing(context: {country: MC}) {
+              price {
+                amount
+                currencyCode
+              }
+              compareAtPrice {
+                amount
+                currencyCode
+              }
+            }
             NL: contextualPricing(context: {country: NL}) {
               price {
                 amount
@@ -279,67 +379,7 @@ export default async function handler(req, res) {
                 currencyCode
               }
             }
-            PT: contextualPricing(context: {country: PT}) {
-              price {
-                amount
-                currencyCode
-              }
-              compareAtPrice {
-                amount
-                currencyCode
-              }
-            }
-            SI: contextualPricing(context: {country: SI}) {
-              price {
-                amount
-                currencyCode
-              }
-              compareAtPrice {
-                amount
-                currencyCode
-              }
-            }
-            SK: contextualPricing(context: {country: SK}) {
-              price {
-                amount
-                currencyCode
-              }
-              compareAtPrice {
-                amount
-                currencyCode
-              }
-            }
-            CH: contextualPricing(context: {country: CH}) {
-              price {
-                amount
-                currencyCode
-              }
-              compareAtPrice {
-                amount
-                currencyCode
-              }
-            }
-            LI: contextualPricing(context: {country: LI}) {
-              price {
-                amount
-                currencyCode
-              }
-              compareAtPrice {
-                amount
-                currencyCode
-              }
-            }
-            DK: contextualPricing(context: {country: DK}) {
-              price {
-                amount
-                currencyCode
-              }
-              compareAtPrice {
-                amount
-                currencyCode
-              }
-            }
-            IS: contextualPricing(context: {country: IS}) {
+            NZ: contextualPricing(context: {country: NZ}) {
               price {
                 amount
                 currencyCode
@@ -359,6 +399,106 @@ export default async function handler(req, res) {
                 currencyCode
               }
             }
+            PH: contextualPricing(context: {country: PH}) {
+              price {
+                amount
+                currencyCode
+              }
+              compareAtPrice {
+                amount
+                currencyCode
+              }
+            }
+            PL: contextualPricing(context: {country: PL}) {
+              price {
+                amount
+                currencyCode
+              }
+              compareAtPrice {
+                amount
+                currencyCode
+              }
+            }
+            PT: contextualPricing(context: {country: PT}) {
+              price {
+                amount
+                currencyCode
+              }
+              compareAtPrice {
+                amount
+                currencyCode
+              }
+            }
+            QA: contextualPricing(context: {country: QA}) {
+              price {
+                amount
+                currencyCode
+              }
+              compareAtPrice {
+                amount
+                currencyCode
+              }
+            }
+            SA: contextualPricing(context: {country: SA}) {
+              price {
+                amount
+                currencyCode
+              }
+              compareAtPrice {
+                amount
+                currencyCode
+              }
+            }
+            SG: contextualPricing(context: {country: SG}) {
+              price {
+                amount
+                currencyCode
+              }
+              compareAtPrice {
+                amount
+                currencyCode
+              }
+            }
+            SK: contextualPricing(context: {country: SK}) {
+              price {
+                amount
+                currencyCode
+              }
+              compareAtPrice {
+                amount
+                currencyCode
+              }
+            }
+            SI: contextualPricing(context: {country: SI}) {
+              price {
+                amount
+                currencyCode
+              }
+              compareAtPrice {
+                amount
+                currencyCode
+              }
+            }
+            ZA: contextualPricing(context: {country: ZA}) {
+              price {
+                amount
+                currencyCode
+              }
+              compareAtPrice {
+                amount
+                currencyCode
+              }
+            }
+            ES: contextualPricing(context: {country: ES}) {
+              price {
+                amount
+                currencyCode
+              }
+              compareAtPrice {
+                amount
+                currencyCode
+              }
+            }
             SE: contextualPricing(context: {country: SE}) {
               price {
                 amount
@@ -369,7 +509,7 @@ export default async function handler(req, res) {
                 currencyCode
               }
             }
-            CZ: contextualPricing(context: {country: CZ}) {
+            CH: contextualPricing(context: {country: CH}) {
               price {
                 amount
                 currencyCode
@@ -379,7 +519,7 @@ export default async function handler(req, res) {
                 currencyCode
               }
             }
-            PO: contextualPricing(context: {country: PL}) {
+            TW: contextualPricing(context: {country: TW}) {
               price {
                 amount
                 currencyCode
@@ -389,7 +529,7 @@ export default async function handler(req, res) {
                 currencyCode
               }
             }
-            RO: contextualPricing(context: {country: RO}) {
+            TH: contextualPricing(context: {country: TH}) {
               price {
                 amount
                 currencyCode
@@ -399,7 +539,26 @@ export default async function handler(req, res) {
                 currencyCode
               }
             }
-          }
+            AE: contextualPricing(context: {country: AE}) {
+              price {
+                amount
+                currencyCode
+              }
+              compareAtPrice {
+                amount
+                currencyCode
+              }
+            }
+            US: contextualPricing(context: {country: US}) {
+              price {
+                amount
+                currencyCode
+              }
+              compareAtPrice {
+                amount
+                currencyCode
+              }
+            }
         }`,
         variables: {
           id: `gid://shopify/ProductVariant/${id}`,
