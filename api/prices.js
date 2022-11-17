@@ -559,6 +559,7 @@ export default async function handler(req, res) {
                 currencyCode
               }
             }
+          }
         }`,
         variables: {
           id: `gid://shopify/ProductVariant/${id}`,
