@@ -19,9 +19,12 @@ export default async function handler(req, res) {
       data: {
         query: `query GetProducts($id: ID!, $countryCode: CountryCode!) {
           productVariant(id: $id) {
-            title
             contextualPricing(context: {country: $countryCode}) {
               price {
+                amount
+                currencyCode
+              }
+              compareAtPrice {
                 amount
                 currencyCode
               }
@@ -36,9 +39,14 @@ export default async function handler(req, res) {
     });
   } catch (err) {
     // console.error(err)
+    res.setHeader('Access-Control-Allow-Credentials', true);
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Access-Control-Allow-Methods', 'GET');
     return res.status(500).send(err);
   }
-
+  res.setHeader('Access-Control-Allow-Credentials', true);
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Methods', 'GET');
   res.setHeader('Cache-Control', 'max-age=0, s-maxage=86400');
-  res.status(200).json(products);
+  res.status(200).json(products.body.data.productVariant);
 }
