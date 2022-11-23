@@ -48,5 +48,11 @@ export default async function handler(req, res) {
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'GET');
   res.setHeader('Cache-Control', 'max-age=0, s-maxage=86400');
-  res.status(200).json(products.body.data.productVariant);
+
+  const { price, compareAtPrice } =
+    products.body.data.productVariant.contextualPricing;
+  res.status(200).json({
+    price,
+    compareAtPrice,
+  });
 }
